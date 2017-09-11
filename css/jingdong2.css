@@ -1,0 +1,498 @@
+.guide-service {
+  overflow: hidden;
+}
+.guide-service a {
+  width: 25%;
+  height: 69px;
+  text-align: center;
+}
+.guide-service a .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 17px  auto auto auto;
+  background: url("../images/sprite_fs@1x.png") no-repeat;
+}
+.guide-service a .icon-huafei {
+  background-position: 0 -88px;
+}
+.guide-service a .icon-jipiao {
+  background-position: 0 -44px;
+}
+.guide-service a .icon-jiudian {
+  background-position: -44px -88px;
+}
+.guide-service a .icon-youxi {
+  background-position: -88px 0;
+}
+.guide-service a .icon-baitiao {
+  background-position: -44px 0;
+}
+.guide-service a .icon-qiyegou {
+  background-position: -88px -44px;
+}
+.guide-service a .icon-dianyingpiao {
+  background-position: -44px -44px;
+}
+.guide-service a .icon-huochepiao {
+  background-position: -88px -88px;
+}
+.guide-service a .icon-zhongcou {
+  background-position: -132px 0;
+}
+.guide-service a .icon-licai {
+  background-position: -132px -44px;
+}
+.guide-service a .icon-lipinka {
+  background-position: -132px -88px;
+}
+.guide-service a span {
+  color: #666;
+  font-size: 12px;
+}
+.guide-service a span:hover {
+  color: #C81623;
+}
+/*京东秒杀*/
+.seckill {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.seckill-title {
+  height: 55px;
+  background: url("../images/seckill_hd.png") no-repeat;
+  position: relative;
+  padding: 8px 20px 0 72px;
+  box-sizing: border-box;
+}
+.seckill-title a {
+  margin-left: 7px;
+}
+.triangle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background: url("../images/sprite_index@1x.png") no-repeat -195px -52px;
+}
+.bell {
+  position: absolute;
+  display: inline-block;
+  width: 34px;
+  height: 40px;
+  top: 8px;
+  left: 30px;
+  background: url("../images/sprite_index@1x.png") no-repeat 0 -40px;
+}
+.jd-seckill {
+  font-size: 26px;
+  color: #fff;
+  font-family: fzzhengheis-el-gbregular;
+}
+.timer {
+  margin-top: 2px;
+  float: right;
+}
+.timer-cut {
+  display: inline-block;
+  width: 35px;
+  height: 37px;
+  background-color: #000;
+  opacity: 0.8;
+  font-size: 24px;
+  text-align: center;
+  line-height: 37px;
+  color: #F90013;
+  border-radius: 4px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.seckill-slider {
+  float: left;
+  margin: 12px 0 12px -1px;
+}
+.seckill-slider li {
+  padding: 0 14px 0 15px;
+  max-width: 170px;
+  border-left: 1px solid #E7E7E7;
+  float: left;
+}
+.seckill-slider a {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.seckill-slider a:hover p {
+  color: #C81623;
+}
+.seckill-slider a:hover img {
+  transition: transform 0.5s ;
+  transform: translateY(-5px);
+}
+.seckill-slider img {
+  margin: 17px 0;
+  transition: transform 0.5s ;
+}
+.seckill-slider .info {
+  color: #999;
+  font-size: 12px;
+  text-align: left;
+  word-break: break-all;
+  line-height: 16px;
+}
+.seckill-slider .bg {
+  width: 170px;
+  height: 20px;
+  position: absolute;
+  top: 130px;
+  background: url("../images/sprite_index@1x.png") no-repeat 0 0;
+}
+.seckill-slider .price {
+  margin-top: 5px;
+}
+.seckill-slider .sale-price {
+  color: #F10214;
+  font-size: 18px;
+  font-weight: 700;
+}
+.seckill-slider .sale-price span {
+  font-size: 12px;
+  font-weight: normal;
+}
+.seckill-slider .original-price {
+  color: #999;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.seckill-show {
+  float: right;
+  position: relative;
+  margin: 12px 0;
+}
+.seckill-show .circle {
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  margin-left: -20px;
+  /*宽度的一半*/
+}
+.seckill-show .circle span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #342A2D;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+/*发现好货等指南*/
+.guid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.fcr {
+  width: 390px;
+  height: 444px;
+}
+.ticket {
+  width: 790px;
+  height: 270px;
+}
+.seek {
+  width: 390px;
+  height: 270px;
+}
+.guid-title {
+  height: 55px;
+  position: relative;
+  padding: 0 20px 0 30px;
+  color: #fff;
+}
+.guid-title .angle {
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.guid-title .title-left {
+  float: left;
+  font-family: fzzhengheis-el-gbregular;
+  font-size: 26px;
+  color: #fff;
+  line-height: 40px;
+  padding-top: 9px ;
+}
+.guid-title a {
+  float: right;
+  margin-top: 19px;
+}
+/*发现好货*/
+.find {
+  background-color: #3B8D96;
+}
+.find .triangle {
+  background-position: -193px -98px;
+}
+.find-content {
+  overflow: hidden;
+  margin: 10px;
+}
+.find-content .flex-box {
+  margin-top: -1px;
+}
+.find-content a {
+  width: 50%;
+  height: 120px;
+  padding: 15px 0 0 20px;
+  position: relative;
+}
+.find-content a p {
+  display: inline-block;
+  width: 80px;
+  color: #4998A1;
+  font-size: 14px;
+}
+.find-content a img {
+  position: absolute;
+  bottom: 5px;
+  right: 9px;
+  transition: transform 0.5s;
+}
+.find-content a:hover img {
+  transform: translateX(-5px);
+  transition: transform 0.5s;
+}
+/*会买专辑*/
+.buy {
+  background-color: #6F3C81;
+}
+.buy .triangle {
+  background: url("../images/sup_hd_dec@1x.png") no-repeat -3px -3px;
+}
+.buy-content {
+  padding-top: 9px;
+  position: relative;
+  height: 380px;
+}
+.buy-content:hover .buy-turn {
+  display: block;
+}
+.buy-slider {
+  height: 318px;
+  display: none;
+}
+.buy-slider:first-child {
+  display: block;
+}
+.buy-slider a {
+  height: 50%;
+  display: block;
+  padding: 18px 0 0 0;
+  margin: 0 15px 18px 15px;
+  box-sizing: border-box;
+}
+.buy-slider a p {
+  color: #666;
+  font-size: 14px;
+  text-indent: 10px;
+  margin-bottom: 15px;
+  line-height: 16px;
+}
+.buy-slider a span {
+  display: flex;
+  justify-content: space-between;
+}
+.buy-slider a:nth-child(2) {
+  border-top: 1px solid #eee;
+}
+.buy-circle {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -33px;
+}
+.buy-circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C8C8C8;
+  margin: 0 7px;
+}
+.buy-turn {
+  width: 20px;
+  height: 50px;
+  top: 50%;
+  margin-top: -25px;
+  position: absolute;
+  display: none;
+  background-color: #F3F2F3;
+  color: #A3A1B7;
+  line-height: 50px;
+  text-align: center;
+}
+.buy-turn:nth-child(2) {
+  right: 0;
+}
+.rank {
+  background-color: #E66905;
+}
+.rank .triangle {
+  background-position: -193px -3px;
+}
+.rank-tab {
+  margin: 0 10px;
+  padding: 7px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #E7E7E7;
+}
+.rank-tab ul {
+  margin-left: -10px;
+}
+.rank-tab li {
+  float: left;
+}
+.rank-tab a {
+  width: 75px;
+  height: 16px;
+  display: block;
+  line-height: 16px;
+  text-align: center;
+  border-left: 1px solid #D2D1D1;
+  color: #666;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.rank-detail {
+  margin: 10px;
+  overflow: hidden;
+}
+.rank-detail .flex-box {
+  margin: -1px -2px 0 0;
+}
+.rank-detail a {
+  width: 33.33%;
+  height: 165px;
+  padding: 12px 11px;
+}
+.rank-detail .pic {
+  height: 100px;
+  margin: 0 auto 10px auto;
+  position: relative;
+}
+.rank-detail .contend {
+  width: 30px;
+  height: 40px;
+  top: 0;
+  position: absolute;
+  background: url("../images/sprite_index@1x.png") no-repeat;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px ;
+}
+.rank-detail .first {
+  background-position: -104px -40px;
+}
+.rank-detail .second {
+  background-position: -50px -100px;
+}
+.rank-detail .third {
+  background-position: 0 -100px;
+}
+.rank-detail .other {
+  background-position: -100px -100px;
+}
+.rank-detail p {
+  height: 32px;
+  line-height: 16px;
+  font-size: 12px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #666;
+}
+.rank-detail p:hover {
+  color: #C81623;
+}
+.ticket-title {
+  background-color: #EB2D14;
+}
+.ticket-title .triangle {
+  background: url("../images/sprite_sprite_coupon@1x.png") no-repeat -3px -3px;
+}
+.ticket-content {
+  overflow: hidden;
+  margin: 10px 0;
+}
+.ticket-content .flex-box {
+  margin-top: -1px;
+}
+.ticket-content a {
+  width: 25%;
+  height: 195px ;
+  position: relative;
+}
+.ticket-content a img {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -70px;
+  transition: transform 1s;
+}
+.ticket-content a:hover img {
+  transform: translateX(15px);
+  transition: transform 1s;
+}
+.ticket-intro {
+  width: 100px;
+  position: absolute;
+  z-index: 1000;
+  left: 15px;
+  bottom: 0;
+  border-top: 3px solid #E93524;
+  background-color: #fff;
+}
+.ticket-intro .price {
+  font-size: 34px;
+  color: #F10214;
+  font-weight: 700;
+  margin-top: 7px;
+}
+.ticket-intro .price span {
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 3px;
+}
+.ticket-intro .limit {
+  color: #E93524;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 3px;
+}
+.ticket-intro .favorable {
+  height: 66px;
+  padding: 15px 10px;
+  background-color: #E7E7E7;
+  font-size: 10px;
+  color: #666;
+  box-sizing: border-box;
+}
+.ticket-intro .more {
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  background-color: #E93524;
+  font-size: 10px;
+}
+.seek-title {
+  background-color: #545F9B;
+}
+.seek-title .triangle {
+  background: url("../images/sprite_sprite_coupon@1x.png") no-repeat -52px -3px;
+}

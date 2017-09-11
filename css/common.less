@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "FamilyName";
+  src: url("https://misc.360buyimg.com/mtd/pc/index/gb/images/iconfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fzzhengheis-el-gbregular";
+  src: url("https://misc.360buyimg.com/mtd/pc/index/home/images/fzzxh-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration-line: none;
+}
+
+body{
+  overflow-y: scroll;
+}
+.bg-color{
+  background-color: #fff;
+}
+/*清楚浮动*/
+.clearfix{
+  &:after{
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+}
+/*盒子模型分割,王字模板*/
+.flex-box{
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: -1px;
+  a{
+    display: block;
+    box-sizing: border-box;
+    border: solid #E7E7E7;
+    border-width: 1px 1px 0 0;
+  }
+}
+/*点击前往的模板*/
+.click-go{
+  color: #fff;
+  font-size:14px;
+  span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 16px;
+    background: url("../images/sprite_index@1x.png") no-repeat -154px -40px;
+  }
+}
